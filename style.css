@@ -1,3 +1,15 @@
+#wrapper {
+    margin: 0 auto;
+    width: 600px;
+    border: 2px solid #212121;
+    border-radius: 5px;
+    background: #eee;
+    padding-bottom: 25px;
+    max-width: 100%;
+}
+
+
+
 #menu {
     padding: 15px 25px;
     display: flex;
