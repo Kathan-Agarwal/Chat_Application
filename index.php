@@ -12,7 +12,7 @@
         <div id="chatbox"> C h a t b o x</div>
         <form name="message" action="">
             <input name="usermsg" type="text" id="usermsg"></input>
-            <input name="submitmsg" type="submit" id="submit" value="Send"></input>
+            <input name="submitmsg" type="submit" id="submitmsg" value="Send"></input>
 </form>
 
 
