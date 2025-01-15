@@ -8,7 +8,16 @@
     max-width: 100%;
 }
 
-
+#chatbox {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+    height: 300px;
+    width: 530px;
+}
 
 #menu {
     padding: 15px 25px;
