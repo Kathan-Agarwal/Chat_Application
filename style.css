@@ -1,4 +1,4 @@
-#wrapper {
+#wrapper, #loginform {
     margin: 0 auto;
     width: 600px;
     border: 2px solid #212121;
@@ -7,6 +7,25 @@
     padding-bottom: 25px;
     max-width: 100%;
 }
+
+#loginform {
+    padding-top: 18px;
+    text-align: center; 
+}
+
+#loginform p {
+    padding-top: 15px 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+
+
+}
+
+#menu {
+    padding: 15px 25px;
+    display: flex;
+}
+
 
 #chatbox {
     margin: 0 auto;
@@ -31,13 +50,19 @@ input {
     font-family: "Lato";
 }
 
-#usermsg{
+#usermsg {
     flex: 1;
     border-radius: 5px;
     border: 1px solid #ff9800
 }
 
-#submitmsg {
+#name {
+    border-radius: 5px;
+    border: 1px solid #ff9800;
+    padding: 2px 8px;
+}
+
+#submitmsg, #enter {
     background: #ff9800;
     font-weight: bold;
     border: 2px solid #e65100;
@@ -45,13 +70,8 @@ input {
     color: white;
     padding: 4px 10px;
 }
-#menu {
-    padding: 15px 25px;
-    display: flex;
-}
 
-
-#chatbox {
+/*#chatbox {
     padding: 10px;
 
-}
+}*/

@@ -7,13 +7,22 @@
     <link rel="stylesheet" href="style.css"
 </head>
 <body>
+    <div id="loginform">
+        <p>Please enter your name to continue!</p>
+        <form action=""method="">
+            <label></label>
+            <input name="name" type="text" id="name"></input>
+            <input name="enter" type="submit" id="enter" value="Enter"></input>
+        </form>
+    </div>
     <div id="wrapper">
         <div id="menu">M E N U</div>
         <div id="chatbox"> C h a t b o x</div>
         <form name="message" action="">
             <input name="usermsg" type="text" id="usermsg"></input>
             <input name="submitmsg" type="submit" id="submitmsg" value="Send"></input>
-</form>
+        
+        </form>
 
 
     </div>
